@@ -1,3 +1,4 @@
+require 'rake'
 module Rake::Hooks
   def before(*task_names, &new_task)
     task_names.each do |task_name|
